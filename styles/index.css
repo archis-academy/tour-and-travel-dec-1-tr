@@ -1,0 +1,7 @@
+img {
+    width: 150px;
+    display: flexbox;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 15px;
+}
