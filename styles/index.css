@@ -1,0 +1,23 @@
+.fast-easy-h5 {
+color: #DF6951;
+font-weight: 700;
+font-size: 18px;
+
+}
+.get-your-h2 {
+    color: #181e4b;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+.value-images-container {
+
+    display: block;
+    gap: 30px;
+    color: #5e6282;
+    font-size: 16px;
+    line-height: 124.5%; /* 19.92px */
+
+}
