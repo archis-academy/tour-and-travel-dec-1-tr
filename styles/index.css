@@ -21,7 +21,41 @@
 .liberty-title{
     color: white;
     font-size: 64px;
+    white-space: nowrap;
 }
 .liberty-line{
     margin-left: 58%;
+}
+
+@media screen and (max-width: 1200px) {
+    .liberty-title-container{
+        transform: translateX(-180px);
+        margin-left: 24px;
+    }
+    .liberty-title{
+        font-size: 46px;
+    }
+    .liberty-line{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .liberty-banner-container{
+        background-position: 70%;
+    }
+    .liberty-title-container{
+        transform: translateX(0px);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .liberty-title{
+        font-size: 38px;
+    }
+    .liberty-line{
+        margin-top: 12px;
+        margin-left: 0;
+    }
 }
