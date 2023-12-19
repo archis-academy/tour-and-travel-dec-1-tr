@@ -1,12 +1,11 @@
-.partners-logo-container{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    background-color: #f7f7f7;
+.partners-logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #f7f7f7;
+  padding: 40px 0px;
 }
-
-
-.partners-logo{
-    width: 180px;
-    height: 60px;
+.partners-logo {
+  width: 150px;
+  height: 50px;
 }
