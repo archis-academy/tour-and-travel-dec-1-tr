@@ -1,0 +1,27 @@
+.liberty-banner-container,
+.liberty-title,
+.liberty-line{
+    display: flex;
+}
+.liberty-banner-container,
+.liberty-title{
+    flex-direction: column;
+}
+.liberty-banner-container{
+    background-image: url("/images/liberty-statue-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    padding: 100px;
+}
+.liberty-title-container{
+    transform: translateX(-300px);
+}
+.liberty-title{
+    color: white;
+    font-size: 64px;
+}
+.liberty-line{
+    margin-left: 58%;
+}
