@@ -29,15 +29,7 @@
   font-size: 16px;
   line-height: 124.5%; /* 19.92px */
 }
-.value-images-1 {
-  display: flex;
-  align-items: center;
-}
-.value-images-2 {
-  display: flex;
-  align-items: center;
-}
-.value-images-3 {
+ .value-images-1{
   display: flex;
   align-items: center;
 }
