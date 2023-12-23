@@ -1,149 +1,196 @@
-.trending-tour-packages-section{
-    display: flex;
-    flex-direction: column;
-    padding: 64px 128px;
-    gap: 64px;
+.trending-tour-packages-section {
+  display: flex;
+  flex-direction: column;
+  padding: 128px;
+  gap: 64px;
+}
+.country-title,
+.tour-package-description,
+.trendy,
+.package-info-item,
+.location,
+.tour-pricing-container {
+  font-family: "Poppins", sans-serif;
+}
+.trending-tour-title {
+  font-family: "Volkhov", serif;
+}
+
+.trendy,
+.discounted-price,
+.tour-package-button {
+  color: #df6951;
+}
+
+.package-info-item,
+.location,
+.old-price {
+  color: gray;
 }
 
 .trending-tour-title-container,
 .trending-tour-title,
-.trending-tour-package{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.trending-tour-package {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .package-info-item,
 .country-title,
 .location,
 .tour-pricing-container,
-.tour-package-button{
-    display: flex;
-    align-items: center;
+.tour-package-button {
+  display: flex;
+  align-items: center;
 }
-.trending-tour-title-container{
-    gap: 4px;
+.trending-tour-title-container {
+  white-space: nowrap;
+  width: 100%;
+  gap: 4px;
 }
-.trending-tour-title{
-    font-size: 42px;
+.trending-tour-title {
+  font-weight: 700;
+  font-size: 40px;
 }
-.trendy{
-    color:#DF6951;
-    font-weight: 700;
-}
-
-.trending-tour-package-container{
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.trendy {
+  font-weight: 700;
 }
 
-.trending-tour-package{
-    width: 395px;
-    gap: 8px;
-}
-.trending-tour-package-image{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.flag{
-    position: absolute;
-    top: 82%;
-    left: 3%;
+.trending-tour-package-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.tour-package-info-container{
-    margin-top: 24px;
-    display: flex;
-    width: 100%;
-    gap: 42px;
-    justify-content: left;
+.trending-tour-package {
+  width: 100%;
+  gap: 8px;
+}
+.trending-tour-package-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.trending-tour-package-image :nth-child(1) {
+  width: 100%;
+}
+.flag {
+  position: absolute;
+  top: 84%;
+  left: 3%;
 }
 
-.package-info-item{
-    justify-content: center;
-    gap: 8px;
-    color: gray;
+.tour-package-info-container {
+  margin-top: 24px;
+  display: flex;
+  width: 100%;
+  gap: 42px;
+  justify-content: left;
 }
 
-.country-title{
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    font-size: 24px;
-    font-weight: 700;
+.package-info-item {
+  justify-content: center;
+  gap: 8px;
 }
-.location{
-    font-size: 18px;
-    width: 100%;
-    color: gray;
+
+.country-title {
+  justify-content: space-between;
+  width: 100%;
+  font-size: 26px;
+  font-weight: 700;
 }
-.tour-pricing-container{
-    display: flex;
-    justify-content: left;
-    gap: 24px;
-    width: 100%;
+.country-title h2 {
+  font-size: 34px;
 }
-.discounted-price{
-    color: #DF6951;
-    font-size: 32px;
-    font-weight: 500;
+.location {
+  font-size: 18px;
+  margin-right: auto;
 }
-.old-price{
-    color: gray;
-    font-size: 24px;
-    font-weight: 500;
-    text-decoration: line-through;
+.tour-pricing-container {
+  margin-right: auto;
+  gap: 24px;
 }
-.tour-package-description{
-    white-space: nowrap;
-    margin-right: auto;
-    font-size: 16px;
-    font-weight: 400;
+
+.discounted-price {
+  font-size: 32px;
+  font-weight: 500;
 }
-.tour-package-button{
-    border: none;
-    margin-top: 32px;
-    margin-right: auto;
-    padding: 16px 24px;
-    color: white;
-    background-color: #DF6951;
-    border-radius: 8px;
+.old-price {
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.tour-package-description {
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.tour-package-button {
+  cursor: pointer;
+  border: none;
+  margin-top: 32px;
+  margin-right: auto;
+  padding: 16px 24px;
+  color: white;
+  background-color: #df6951;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 1200px) {
-    .trending-tour-packages-section{
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        gap: 64px;
-    }
-    .trending-tour-package-container{
-        display: grid;
-        place-items: left;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
+  .trending-tour-packages-section {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+  }
+  .trending-tour-package-container {
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .trending-tour-package-container{
-        display: grid;
-        place-items: center;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-    }
-    .tour-package-description,
-    .tour-package-button{
-        margin: 0;
-    }
-    .tour-package-info-container{
-        justify-content: space-between;
-    }
-    .tour-pricing-container{
-        justify-content: center;
-    }
+  .trending-tour-packages-section {
+    padding: 16px;
+    gap: 16px;
+  }
+  .trending-tour-package-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    place-items: center;
+    gap: 20px;
+  }
+  .trending-tour-title {
+    font-size: 36px;
+  }
+  .flag {
+    width: 30%;
+  }
+  .country-title h2 {
+    font-size: 30px;
+  }
+  .country-title {
+    flex-direction: column;
+  }
+  .tour-package-description,
+  .tour-package-button {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+  }
+  .tour-package-info-container {
+    justify-content: space-between;
+  }
+  .location,
+  .tour-pricing-container {
+    margin: 0;
+  }
 }
