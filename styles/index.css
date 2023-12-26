@@ -1,0 +1,106 @@
+
+h3{
+    color: #DF6951;
+    text-align: center;
+    font-weight: 600px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 110px;
+    margin-bottom: 20px;
+ 
+}
+h2{
+    text-align: center;
+    color: #181E4B;
+    font-size: 50px;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20.91px;
+    margin-left: 320px;
+    margin-right: 320px;
+    justify-content: space-between;
+}
+.main div{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+h4{
+    color: #1E1D4C;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+p{
+    width: 199px;
+    height: 78px;
+    flex-shrink: 0;
+    color: #5E6282;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.container-1 img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-top: 35.09px;
+    margin-left: 60px;
+    margin-bottom: 42px;
+}
+.container-2 img{
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+    margin-top: 20.09px;
+    margin-left: 108px;
+    margin-bottom: 37px;
+}
+.container-3 img{
+    width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    margin-top: 46.09px;
+    margin-bottom: 36.91px;
+    margin-left: 53px;
+}
+.container-4 img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-top: 43.09px;
+    margin-left: 58px;
+    margin-bottom: 34px;
+}
+.container-2{
+    border-radius: 36px;
+    width: 267px;
+    height: 314px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    margin-bottom: 33px;
+}
+.container-2 p{
+    margin-left: 35px;
+    margin-top: 12px;
+    
+}
+.container-1 p {
+    margin-top: 12px;
+}
+.container-3 p{
+    margin-top: 12.09px;
+}
+.container-4 p{
+    margin-top: 12px;
+}
