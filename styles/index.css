@@ -41,7 +41,7 @@
   font-size: 16px;
   line-height: 124.5%; /* 19.92px */
 }
- .value-images-1{
+.value-images-1 {
   display: flex;
   align-items: center;
 }
@@ -49,13 +49,15 @@
   margin-left: 20px;
 }
 .promotion-container {
-  display: flex;
-  justify-content: space-between;
   width: 1300px;
-  margin: auto;
+  margin: 30px auto;
   padding: 60px 20px;
+  position: relative;
 }
-.h5-promotion{
+.promotion-head {
+  display: inline-block;
+}
+.h5-promotion {
   color: #df6951;
   font-weight: 700;
   font-size: 18px;
@@ -70,38 +72,86 @@
   margin-bottom: 20px;
 }
 .promotion-text {
- color: black;
- font-family: 'Poppins', sans-serif;
- font-size: 16px;
- font-style: normal;
- font-weight: 400;
- line-height: 26px; /* 162.5% */
+  color: black;
+  width: 570px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 .btn {
   display: inline-block;
-  background-color: #DF6951;
+  background-color: #df6951;
   color: white;
   padding: 15px 25px;
   border-radius: 10px;
   margin: 30px 0px;
 }
 .promotion-card-images {
-   display: flex;
-   justify-content: space-between;
-   gap: 50px;
-   position: relative;
-   margin-left: 5px;
-  } 
-.card-img {
-    width: 90%;
-    position: static;
-  } 
-  .price-tag {
-    color: white;
-    padding: 8px 20px;
-    border-radius: 20px;
-    background: linear-gradient(100deg, #FF7255 8.93%, #BA4E38 100%);
-    position: absolute;
-    right: 10px;
-    top: 10px;
+  display: flex;
+  text-align: left;
+}
+.card-img-1 {
+  width: 300px;
+  position: relative;
+  margin: 50px 10px;
+}
+.price-tag-1 {
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
+.card-img-2 {
+  width: 300px;
+  position: relative;
+  margin: 50px 10px;
+}
+.price-tag-2 {
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
+.card-img-3 {
+  width: 300px;
+  position: relative;
+  margin: 50px 10px;
+}
+.price-tag-3 {
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
+.card-img-4 {
+  width: 300px;
+  position: relative;
+  margin: 50px 10px;
+}
+.price-tag-4 {
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
+.big-image {
+  bottom: -25px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1px;
 }
