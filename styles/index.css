@@ -90,12 +90,17 @@
 }
 .promotion-card-images {
   display: flex;
-  text-align: left;
+  gap: 30px;
+  margin-top: 40px;
+}
+.card-img {
+  width: 100%;
+  height: 238px;
 }
 .card-img-1 {
-  width: 300px;
+  width: 225px;
+  height: 225px;
   position: relative;
-  margin: 50px 10px;
 }
 .price-tag-1 {
   color: white;
@@ -103,13 +108,13 @@
   border-radius: 20px;
   background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
   position: absolute;
-  right: 70px;
+  right: 20px;
   top: 10px;
 }
 .card-img-2 {
-  width: 300px;
+  width: 225px;
+  height: 225px;
   position: relative;
-  margin: 50px 10px;
 }
 .price-tag-2 {
   color: white;
@@ -117,13 +122,13 @@
   border-radius: 20px;
   background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
   position: absolute;
-  right: 70px;
+  right: 20px;
   top: 10px;
 }
 .card-img-3 {
-  width: 300px;
+  width: 225px;
+  height: 225px;
   position: relative;
-  margin: 50px 10px;
 }
 .price-tag-3 {
   color: white;
@@ -131,13 +136,13 @@
   border-radius: 20px;
   background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
   position: absolute;
-  right: 70px;
+  right: 20px;
   top: 10px;
 }
 .card-img-4 {
-  width: 300px;
+  width: 225px;
+  height: 225px;
   position: relative;
-  margin: 50px 10px;
 }
 .price-tag-4 {
   color: white;
@@ -145,13 +150,16 @@
   border-radius: 20px;
   background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
   position: absolute;
-  right: 70px;
+  right: 20px;
   top: 10px;
 }
 .big-image {
-  bottom: -25px;
   right: 0;
   top: 0;
   position: absolute;
   z-index: -1px;
+}
+.big-img {
+width: 100%;
+height: 765px;
 }
