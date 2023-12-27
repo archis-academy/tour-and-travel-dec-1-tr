@@ -29,12 +29,10 @@
   line-height: 26px; /* 162.5% */
 }
 .pro-btn {
-    display: inline-block;
-    background-color: #df6951;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 10px;
-    margin: 30px 0px;
+  display: inline-block;
+  background-color: #df6951;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin: 30px 0px;
 }
-
-    
