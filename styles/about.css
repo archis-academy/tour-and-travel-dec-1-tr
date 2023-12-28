@@ -1,0 +1,38 @@
+.promotion-about-container {
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+.promotion-h5 {
+  color: #df6951;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.promotion-h2 {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.text-promotion {
+  color: black;
+  width: 570px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.pro-btn {
+  display: inline-block;
+  background-color: #df6951;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
