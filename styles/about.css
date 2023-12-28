@@ -1,9 +1,9 @@
 .promotion-about-container {
-  width: 1300px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
-  padding: 60px 20px;
+  margin: 0 auto;
+  padding: 90px 0;
 }
 .promotion-h5 {
   color: #df6951;
