@@ -262,7 +262,7 @@
   }
   
   .trending-tour-package {
-    width: 100%;
+    max-width: 80%;
     gap: 8px;
   }
   .trending-tour-package-image {
@@ -276,7 +276,7 @@
   }
   .flag {
     position: absolute;
-    top: 84%;
+    top: 82%;
     left: 3%;
   }
   
@@ -360,9 +360,14 @@
       place-items: center;
       gap: 20px;
     }
+    .trending-tour-package {
+      max-width: 50%;
+      gap: 12px;
+    }
     .trending-tour-title {
       font-size: 36px;
     }
+    
     .flag {
       width: 30%;
     }
