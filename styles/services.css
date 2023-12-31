@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.hero-section {
+  background-image: url("/images/services/hero-background-lake.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: 700px;
+}
+.hero-header,
+.hero-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-header {
+  padding: 32px 164px;
+}
+.logo-container{
+    display: flex;
+    position: relative;
+    font-family: 'Volkhov', serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo-container img{
+    position: absolute;
+    top: 54%;
+    left: 28%;
+    width: 100%;
+}
+.hero-navbar{
+    margin-left: 128px;
+    gap: 48px;
+}
+.navbar-item{
+    list-style: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+}
+.header-button{
+    cursor: pointer;
+    background-color: #DF6951;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: none;
+}
+.dropdown-container,
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-container{
+    display: block;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-container{
+    position: absolute;
+}
+.dropdown-item{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: rgba(128, 128, 128, 0.466)
+}
+.dropdown-item:hover{
+    background-color: rgba(194, 189, 189, 0.466)
+}
+
+
+@media screen and (max-width:1200px) {
+    
+}
