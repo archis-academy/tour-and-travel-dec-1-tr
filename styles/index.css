@@ -1,57 +1,197 @@
 .partners-logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #f7f7f7;
+  padding: 40px 0px;
+}
+.partners-logo {
+  width: 150px;
+  height: 50px;
+}
+
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  margin: auto;
+  padding: 60px 20px;
+}
+.fast-easy-h5 {
+  color: #df6951;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.get-your-h2 {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.value-images-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px;
+  color: #5e6282;
+  font-size: 16px;
+  line-height: 124.5%; /* 19.92px */
+}
+ .value-images-1{
+  display: flex;
+  align-items: center;
+}
+.text-img-head {
+  margin-left: 20px;
+}
+.honeymoon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.honeymoon-content {
+  flex: 1;
+  margin: 150px;
+  height: 100%;
+  width: 100%;
+}
+
+.honeymoon-img {
+  width: 500px;
+}
+
+.view-packages-button {
+  border-radius: 10px;
+  background: #df6951;
+
+  display: flex;
+  width: 175px;
+  height: 55px;
+
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  flex-shrink: 0;
+
+  cursor: pointer;
+}
+
+.honeymoon-text {
+  width: 575px;
+  height: 100px;
+  flex-shrink: 0;
+
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+.honeymoon-h3 {
+  margin: 0px 0px 0px 0px;
+
+  width: 800px;
+  height: 150px;
+  flex-shrink: 0;
+
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 70px;
+}
+
+.honeymoon-h4 {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+/* Liberty Banner */
+.liberty-banner-container,
+.liberty-title,
+.liberty-line{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    background-color: #f7f7f7;
-    padding: 40px 0px;
-  }
-  .partners-logo {
-    width: 150px;
-    height: 50px;
-  }
-  
-  .homepage-container {
-    display: flex;
-    justify-content: space-between;
-    width: 1300px;
-    margin: auto;
-    padding: 60px 20px;
-  }
-  .fast-easy-h5 {
-    color: #df6951;
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .get-your-h2 {
-    color: #181e4b;
-    font-family: "Volkhov", serif;
-    font-size: 50px;
-    font-weight: 700;
-    text-transform: capitalize;
-  }
-  .value-images-container {
-    margin-top: 50px;
-    display: flex;
+}
+.liberty-banner-container,
+.liberty-title{
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 25px;
-    color: #5e6282;
-    font-size: 16px;
-    line-height: 124.5%; /* 19.92px */
-  }
-   .value-images-1{
-    display: flex;
+}
+.liberty-banner-container{
+    background-image: url("/images/liberty-statue-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
-  }
-  .text-img-head {
-    margin-left: 20px;
-  }
+    padding: 100px;
+}
+.liberty-title-container{
+    transform: translateX(-300px);
+}
+.liberty-title{
+    font-family: 'Volkhov', serif;
+    position: relative;
+    color: white;
+    font-size: 52px;
+    white-space: nowrap;
+}
+.liberty-line{
+    position: absolute;
+    left: 60%;
+}
 
-  /* Trending Tour Package */
+@media screen and (max-width: 1200px) {
+    .liberty-title-container{
+        transform: translateX(-180px);
+        margin-left: 24px;
+    }
+    .liberty-title{
+        font-size: 38px;
+    }
+    .liberty-line{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .liberty-banner-container{
+        background-position: 70%;
+    }
+    .liberty-title-container{
+        transform: translateX(0px);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .liberty-title{
+        font-size: 38px;
+        text-align: center;
+    }
+    .liberty-line{
+        top: 100%;
+        left: 20%;
+    }
+  }
+   /* Trending Tour Package */
 
-  .trending-tour-packages-section {
+   .trending-tour-packages-section {
     display: flex;
     flex-direction: column;
     padding: 128px;
@@ -122,7 +262,7 @@
   }
   
   .trending-tour-package {
-    width: 100%;
+    max-width: 80%;
     gap: 8px;
   }
   .trending-tour-package-image {
@@ -136,7 +276,7 @@
   }
   .flag {
     position: absolute;
-    top: 84%;
+    top: 82%;
     left: 3%;
   }
   
@@ -220,9 +360,14 @@
       place-items: center;
       gap: 20px;
     }
+    .trending-tour-package {
+      max-width: 50%;
+      gap: 12px;
+    }
     .trending-tour-title {
       font-size: 36px;
     }
+    
     .flag {
       width: 30%;
     }
@@ -247,79 +392,3 @@
       margin: 0;
     }
   }
-
-  .honeymoon-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.honeymoon-content {
-  flex: 1;
-  margin: 150px;
-  height: 100%;
-  width: 100%;
-}
-
-.honeymoon-img {
-  width: 500px;
-}
-
-.view-packages-button {
-  border-radius: 10px;
-  background: #df6951;
-
-  display: flex;
-  width: 175px;
-  height: 55px;
-
-  justify-content: center;
-  align-items: center;
-
-  color: white;
-  flex-shrink: 0;
-
-  cursor: pointer;
-}
-
-.honeymoon-text {
-  width: 575px;
-  height: 100px;
-  flex-shrink: 0;
-
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400px;
-  line-height: 26px;
-  margin: 20px 0;
-}
-
-.honeymoon-h3 {
-  margin: 0px 0px 0px 0px;
-
-  width: 800px;
-  height: 150px;
-  flex-shrink: 0;
-
-  color: #181e4b;
-  font-family: "Volkhov", serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700px;
-  line-height: 70px;
-}
-
-.honeymoon-h4 {
-  color: #df6951;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700px;
-  line-height: normal;
-  letter-spacing: 1.8px;
-  text-transform: uppercase;
-}
