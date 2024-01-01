@@ -94,11 +94,33 @@ body {
   .hero-header {
     padding: 16px 32px;
   }
-  .logo-container,
-  .hero-navbar {
+  .logo-container {
     display: none;
+  }
+  .hero-header {
+    position: fixed;
+    width: 85%;
+    background-color: gray;
   }
   .hamburger {
     display: block;
+  }
+  .hero-navbar {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    padding: 0px;
+    backdrop-filter: blur(30px);
+
+    transition: 0.3s ease-in-out;
+    top: 9%;
+    left: -100%;
+    z-index: 8;
+  }
+  .hero-navbar.active {
+    transition: 0.3s ease-in-out;
+    left: 0%;
   }
 }
