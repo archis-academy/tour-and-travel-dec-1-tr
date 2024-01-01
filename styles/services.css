@@ -12,6 +12,9 @@ body {
   background-position: center;
   color: white;
   height: 700px;
+
+  display: flex;
+  flex-direction: column;
 }
 .hero-header,
 .hero-navbar {
@@ -81,6 +84,26 @@ body {
   background-color: rgba(194, 189, 189, 0.466);
 }
 
+.hero-content-container {
+  text-align: center;
+  margin-top: 96px;
+}
+.hero-litle-title,
+.hero-main-title{
+  margin: 0;
+}
+.hero-litle-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+.hero-main-title {
+  font-family: "Yesteryear", cursive;
+  font-size: 158px;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 1200px) {
   .hero-header {
     padding: 32px 64px;
@@ -88,6 +111,9 @@ body {
   .hero-navbar {
     margin: 0;
     gap: 32px;
+  }
+  .hero-main-title{
+    font-size: 112px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -110,7 +136,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 90%;
+    height: 100%;
     padding: 0px;
     backdrop-filter: blur(30px);
 
@@ -122,5 +148,14 @@ body {
   .hero-navbar.active {
     transition: 0.3s ease-in-out;
     left: 0%;
+  }
+  .hero-content-container{
+    margin-top: 230px;
+  }
+  .hero-litle-title{
+    font-size: 15px;
+  }
+  .hero-main-title{
+    font-size: 90px;
   }
 }
