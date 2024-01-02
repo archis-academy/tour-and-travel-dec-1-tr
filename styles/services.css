@@ -502,6 +502,7 @@ button {
   justify-content: space-around;
   border-bottom: #e5e5ea 2px solid;
   padding: 22px 16px;
+  gap: 36px;
 }
 .footer-container {
   display: flex;
@@ -560,4 +561,24 @@ button {
   position: absolute;
   width: 40%;
   left: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-section{
+    margin-top: 2200px;
+    z-index: -2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-section{
+    margin-top: 900px;
+  }
+  .footer-topside{
+    flex-direction: column;
+  }
+  .footer-container,
+  .footer-image{
+    display: none;
+  }
 }
