@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   min-height: 100vh;
   min-height: 100dvh;
 }
@@ -220,7 +221,7 @@ button {
 .booking-cards-grid {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px;
 
   max-width: 100%;
@@ -310,7 +311,7 @@ button {
   height: 30px;
 }
 
-.plan-yout-trip {
+.plan-your-trip {
   background: #ededed;
   display: flex;
   justify-content: center;
@@ -423,6 +424,7 @@ button {
   left: 44%;
   bottom: 20%;
 
+  width: 50%;
   z-index: 1;
 }
 .shell {
@@ -430,4 +432,54 @@ button {
   bottom: 120%;
   left: 85%;
   z-index: -2;
+}
+
+@media screen and (max-width: 1200px) {
+  .booking-container {
+    position: relative;
+    width: 100%;
+
+    bottom: 0%;
+    z-index: -1;
+    margin: 0 auto;
+  }
+
+  .plan-your-trip {
+    width: 80%;
+    height: 100%;
+    padding: 0;
+    gap: 12px;
+  }
+  .shell {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .booking-container-header {
+    display: none;
+  }
+  .booking-container-header-item {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .plan-your-trip {
+    margin-left: 10%;
+  }
+  .search-input{
+    padding: 14px 36px;
+    font-size: 14px;
+  }
+  .booking-content-container {
+    padding: 24px;
+    gap: 12px;
+    flex-direction: column-reverse;
+  }
+  .booking-card-info {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 }
