@@ -3,9 +3,13 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
 }
+button{
+  cursor: pointer;
+}
 
 /* Hero Section & Header */
 .hero-section {
+  position: relative;
   background-image: url("/images/services/hero-background-lake.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,7 +93,7 @@ body {
   margin-top: 96px;
 }
 .hero-litle-title,
-.hero-main-title{
+.hero-main-title {
   margin: 0;
 }
 .hero-litle-title {
@@ -112,7 +116,7 @@ body {
     margin: 0;
     gap: 32px;
   }
-  .hero-main-title{
+  .hero-main-title {
     font-size: 112px;
   }
 }
@@ -143,19 +147,181 @@ body {
     transition: 0.3s ease-in-out;
     top: 9%;
     left: -100%;
-    z-index: 8;
+    z-index: 10;
   }
   .hero-navbar.active {
     transition: 0.3s ease-in-out;
     left: 0%;
   }
-  .hero-content-container{
+  .hero-content-container {
     margin-top: 230px;
   }
-  .hero-litle-title{
+  .hero-litle-title {
     font-size: 15px;
   }
-  .hero-main-title{
+  .hero-main-title {
     font-size: 90px;
   }
+}
+
+/* Booking Section */
+
+.booking-section {
+  height: 1400px;
+  z-index: 2;
+}
+
+.booking-container {
+  position: relative;
+  width: 70%;
+  height: 1000px;
+  background: #fff;
+  box-shadow: 0px 4px 48px 12px rgba(0, 0, 0, 0.09);
+
+  bottom: 5%;
+  margin: 0 auto;
+}
+.booking-container-header {
+  white-space: nowrap;
+  background: #f8f8f8;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+
+  max-width: 100%;
+
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+}
+.booking-container-header-item {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  gap: 16px;
+}
+.booking-content-container {
+  display: flex;
+  padding: 32px;
+}
+
+
+.plan-yout-trip {
+  background: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  padding: 32px;
+  gap: 24px;
+}
+.plan-your-trip-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.title-header {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+.title-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.searchbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.search-box {
+  position: relative;
+}
+.search-input {
+  padding: 24px 40px;
+  border: none;
+  font-size: 18px;
+}
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.26);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.search-icon {
+  position: absolute;
+  top: 34%;
+  left: 5%;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
+.filter-title {
+  font-family: "Poppins", sans-serif;
+  color: #343434;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.filter-input-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.filter-input,
+.filter-button {
+  border: none;
+  height: 40px;
+}
+.filter-input {
+  width: 100%;
+  font-size: 18px;
+}
+.filter-button {
+  background: #df6951;
+  border: none;
+  width: 40px;
+}
+.pricing {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.book-now {
+  border-radius: 10px;
+  border: none;
+  background: #df6951;
+  color: white;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  padding: 16px 38px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.shell {
+  position: relative;
+  bottom: 60%;
+  left: 85%;
+  width: 13%;
+  z-index: -2;
 }
