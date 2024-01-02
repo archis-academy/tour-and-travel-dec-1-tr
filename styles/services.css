@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
 }
-button{
+button {
   cursor: pointer;
 }
 
@@ -173,8 +173,7 @@ button{
 
 .booking-container {
   position: relative;
-  width: 70%;
-  height: 1000px;
+  width: 1200px;
   background: #fff;
   box-shadow: 0px 4px 48px 12px rgba(0, 0, 0, 0.09);
 
@@ -208,8 +207,108 @@ button{
 .booking-content-container {
   display: flex;
   padding: 32px;
+  gap: 36px;
 }
 
+.booking-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.booking-cards-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+
+  max-width: 100%;
+}
+.booking-card {
+  cursor: pointer;
+  width: 310px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 2;
+}
+.booking-card:hover {
+  border-radius: 21px;
+  box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
+  transform: translateX(-30px);
+  transform: translateY(-30px);
+}
+.card-image {
+  display: flex;
+  flex-direction: column;
+}
+.card-image-title {
+  background: #df6951;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px;
+}
+.card-title-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.booking-card-info {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.country-name {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.country-description {
+  font-family: "Poppins", sans-serif;
+  color: #181e4b;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+.card-point {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
+
+  color: #262626;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pages {
+  display: flex;
+  gap: 12px;
+}
+.pages button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background: none;
+  border: none;
+  font-size: 16px;
+}
+.pages :nth-child(2) {
+  background-color: #ebebeb;
+  border-radius: 18px;
+  width: 30px;
+  height: 30px;
+}
 
 .plan-yout-trip {
   background: #ededed;
@@ -219,6 +318,7 @@ button{
   flex-direction: column;
   text-align: center;
   width: 40%;
+  height: 60%;
   padding: 32px;
   gap: 24px;
 }
@@ -318,10 +418,16 @@ button{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
+.booking-content-container-image {
+  position: absolute;
+  left: 44%;
+  bottom: 20%;
+
+  z-index: 1;
+}
 .shell {
   position: relative;
-  bottom: 60%;
+  bottom: 120%;
   left: 85%;
-  width: 13%;
   z-index: -2;
 }
