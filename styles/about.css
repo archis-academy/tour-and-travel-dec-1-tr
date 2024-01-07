@@ -36,3 +36,20 @@
   border-radius: 10px;
   margin: 30px 0px;
 }
+.about-video {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  margin: auto;
+}
+.wanderlust-head {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 400px;
+  
+}
