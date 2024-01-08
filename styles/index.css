@@ -1,4 +1,4 @@
-h3{
+.services-title-1 {
     color: #DF6951;
     text-align: center;
     font-weight: 600px;
@@ -7,14 +7,16 @@ h3{
     margin-top: 110px;
     margin-bottom: 20px;
 }
-h2{
+
+.services-title-2 {
     text-align: center;
     color: #181E4B;
     font-size: 50px;
     font-family: 'Volkhov', serif;
     font-weight: 700;
 }
-h4{
+
+.services-title-3 {
     color: #1E1D4C;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -25,7 +27,8 @@ h4{
     margin: auto auto 12px auto;
     z-index: 5;
 }
-p{
+
+.services-text {
     width: 199px;
     height: 78px;
     flex-shrink: 0;
@@ -38,7 +41,8 @@ p{
     line-height: 26px;
     margin: 0 auto 44.91px auto;
 }
-.boxes{
+
+.services-boxes {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -46,12 +50,14 @@ p{
     margin: 20.91px auto;
     flex-wrap: wrap;
 }
-.container-1, .container-2, .container-3, .container-4{
+
+.services-box {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.container-2{
+
+.services-box-2 {
     width: 267px;
     height: 314px;
     flex-shrink: 0;
@@ -60,7 +66,8 @@ p{
     box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
     position: relative;
 }
-.rec-2{
+
+.rec-2 {
     width: 100px;
     height: 100px;
     flex-shrink: 0;
@@ -71,18 +78,24 @@ p{
     top: 247px;
     left: -35px;
 }
-.img-1{
+
+.img-1 {
     width: 72px;
     height: 72px;
     flex-shrink: 0;
     top: 35.09px;
     left: 60px;
 }
-img{
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
     position: relative;
     z-index: 1;
 }
-.rec{
+
+.rec {
     width: 50px;
     height: 49px;
     flex-shrink: 0;
@@ -91,42 +104,49 @@ img{
     position: absolute;
     z-index: 0;
 }
-.img-2{
+
+.img-2 {
     width: 92px;
     height: 92px;
     flex-shrink: 0;
     left: 108px;
     top: 20.09px;
 }
-.img-3{
+
+.img-3 {
     width: 66px;
     height: 66px;
     flex-shrink: 0;
     top: 46.09px;
     left: 53px;
 }
-.img-4{
+
+.img-4 {
     width: 72px;
     height: 72px;
     flex-shrink: 0;
     top: 43.09px;
     left: 58px;
 }
-.img-box-1 > .rec{
+
+.img-box-1>.rec {
     left: 97px;
     top: 71.09px;
 }
-.img-box-2 > .rec{
+
+.img-box-2>.rec {
     left: 96.8px;
     top: 40px;
     rotate: 270deg;
 }
-.img-box-3 > .rec{
+
+.img-box-3>.rec {
     left: 86px;
     top: 71.09;
     rotate: 90deg;
 }
-.img-box-4 > .rec{
+
+.img-box-4>.rec {
     left: 94px;
     top: 70.09px;
     rotate: 270deg;
