@@ -233,6 +233,7 @@ button {
   flex-direction: column;
   gap: 24px;
   z-index: 2;
+  transition: all 250ms ease-in-out;
 }
 .booking-card:hover {
   border-radius: 21px;
