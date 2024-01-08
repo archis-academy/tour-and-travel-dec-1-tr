@@ -36,20 +36,27 @@
   border-radius: 10px;
   margin: 30px 0px;
 }
-.about-video {
-  max-width: 100%;
-  max-height: 100%;
+.about-gif {
+  border: 1px solid ghostwhite;
+  background-image: url(/images/about/15932d9669fc68adf59e3a7a20577300.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
   position: relative;
-  margin: auto;
 }
-.wanderlust-head {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFF;
-  font-size: 30px;
+.wanderlust-h1 {
+  margin: 150px auto;
+  text-align: center;
+  font-family: "Yesteryear", cursive;
+  color: #fff;
+  font-size: 100px;
   font-weight: 400px;
-  
+}
+.play-circle {
+  position: absolute;
+  right: 650px;
+  top: 180px;
+  width: 80px;
 }
