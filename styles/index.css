@@ -189,29 +189,22 @@
     left: 20%;
   }
   .homepage-explore-section-container {
-  column-count: 2;
-  column-gap: 20px; 
-  display: flex;
-}
-.explore-section-box {
- column-gap: normal;
-}
-.explore-section-box-text {
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 20px;
-}
-.explore-nature {
-  background-image: url('image/homepage-explore1.png');
-}
-.explore-cities {
-  background-image: url('images/homepage-explore2.png');
-}
-.explore-section-box-h5
-.explore-section-box-h2
-.explore-section-line-img
-.explore-section-button {
-}
+  }
+  .explore-section-box {
+  }
+  .explore-section-box-text {
+  }
+  .explore-nature {
+    background-image: url("image/homepage-explore1.png");
+  }
+  .explore-cities {
+    background-image: url("images/homepage-explore2.png");
+  }
+  .explore-section-box-h5
+    .explore-section-box-h2
+    .explore-section-line-img
+    .explore-section-button {
+  }
 }
 /* Trending Tour Package */
 
