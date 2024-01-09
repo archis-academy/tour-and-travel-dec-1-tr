@@ -17,6 +17,7 @@ button {
   background-position: center;
   color: white;
   height: 700px;
+  z-index: 1;
 
   display: flex;
   flex-direction: column;
@@ -122,6 +123,9 @@ button {
   }
 }
 @media screen and (max-width: 768px) {
+  .hero-section{
+    z-index: 3;
+  }
   .hero-header {
     padding: 16px 32px;
   }
@@ -170,6 +174,7 @@ button {
 .booking-section {
   position: relative;
   transform: translateY(-70px);
+  z-index: 2;
 }
 
 .booking-container {
@@ -177,6 +182,7 @@ button {
   width: 1200px;
   background: #fff;
   box-shadow: 0px 4px 48px 12px rgba(0, 0, 0, 0.09);
+  
 
   margin: 0 auto;
 }
@@ -233,11 +239,11 @@ button {
   flex-direction: column;
   gap: 24px;
   z-index: 2;
-  transition: all 250ms ease-in-out;
 }
 .booking-card:hover {
   border-radius: 21px;
   box-shadow: 0px 4.325px 51.896px 12.974px rgba(0, 0, 0, 0.09);
+  transition: 0.1s ease-in-out;
   transform: translate(-30px, -30px);
 }
 .card-image {
@@ -456,6 +462,13 @@ button {
 @media screen and (max-width: 768px) {
   .booking-container-header {
     display: none;
+  }
+  .booking-content-container-image {
+    left: 50%;
+    bottom: 30%;
+  
+    width: 50%;
+    z-index: 1;
   }
   .booking-container-header-item {
     justify-content: center;
