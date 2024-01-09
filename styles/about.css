@@ -1,23 +1,31 @@
-.promotion-about-container {
-  max-width: 1300px;
+ /* About Europe Sightseeing Tours */
+.promotion-about-container,
+.img-pro{
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.promotion-about-container {
+  gap: 24px;
   padding: 90px 0;
+}
+.img-pro{
+  width: 40%;
 }
 .promotion-h5 {
   color: #df6951;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 .promotion-h2 {
   color: #181e4b;
   font-family: "Volkhov", serif;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 .text-promotion {
   color: black;
@@ -36,6 +44,55 @@
   border-radius: 10px;
   margin: 30px 0px;
 }
+@media screen and (max-width: 1200px) {
+  .promotion-about-container {
+    gap: 18px;
+    padding: 90px 64px;
+  }
+  .text-promotion {
+    width: 90%;
+    font-size: 14px;
+    line-height: 24px; /* 162.5% */
+  }
+  .promotion-h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .promotion-h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .img-pro{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promotion-about-container,
+  .promotion-about-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .promotion-about-container {
+    gap: 16px;
+    text-align: center;
+  }
+  .promotion-h2 {
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .img-pro{
+    width:100%;
+    margin-left: 32px;
+  }
+}
+
+
+/* About All Sections */
+
 .about-gif {
   display: flex;
   justify-content: center;
@@ -93,4 +150,19 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+/* Trend Container */
+
+@media screen and (max-width: 1200) {
+  
+}
+@media screen and (max-width: 768) {
+  .trend-container {
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 90px 0;
+  }
 }
