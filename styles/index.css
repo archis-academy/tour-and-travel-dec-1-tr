@@ -189,6 +189,51 @@
     left: 20%;
   }
 }
+
+/* Home explore section */
+.explore-section-button {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 12px 8px;
+}
+
+.homepage-explore-section-container {
+  display: flex;
+}
+.explore-section-box-1,
+.explore-section-box-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+}
+.explore-section-box-1 {
+  background-image: url("../images/homepage-explore1.png");
+}
+.explore-section-box-2 {
+  background-image: url("../images/homepage-explore2.png");
+}
+.explore-section-box-h3 {
+  position: relative;
+  font-size: 40px;
+  font-family: "Volkhov", serif;
+}
+.explore-section-box-h4 {
+  position: relative;
+  font-size: 20px;
+  font-family: "Poppins" sans-serif;
+}
+.explore-section-line-img {
+  position: absolute;
+  right: -25px;
+  bottom: -8px;
+}
 /* Trending Tour Package */
 
 .trending-tour-packages-section {
