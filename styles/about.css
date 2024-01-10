@@ -1,3 +1,60 @@
+/* HEADER */
+
+.about-us-header {
+  border: 1px solid ghostwhite;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/about/about-header-img.png");
+  background-position: center;
+  background-size: cover;
+}
+.header-travel-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 50px auto;
+}
+.p-travel-head {
+  color: #fff;
+  display: flex;
+  gap: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  align-items: center;
+}
+.p-2 {
+  border-bottom: 2px solid #df6951;
+}
+.get-in-touch-btn {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #df6951;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin: auto 5px;
+}
+.mid-head {
+  width: 1100px;
+  margin: 100px auto;
+}
+.read-h1 {
+  color: #ffefec;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about-us-h1 {
+  color: #fff;
+  font-family: "Yesteryear";
+  font-size: 157.45px;
+  font-weight: 400px;
+  text-align: center;
+}
+
 /* About Europe Sightseeing Tours */
 .promotion-about-container,
 .img-pro {
