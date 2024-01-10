@@ -1,6 +1,6 @@
- /* About Europe Sightseeing Tours */
+/* About Europe Sightseeing Tours */
 .promotion-about-container,
-.img-pro{
+.img-pro {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
   gap: 24px;
   padding: 90px 0;
 }
-.img-pro{
+.img-pro {
   width: 40%;
 }
 .promotion-h5 {
@@ -63,13 +63,13 @@
     text-transform: capitalize;
     margin-bottom: 20px;
   }
-  .img-pro{
+  .img-pro {
     width: 50%;
   }
 }
 @media screen and (max-width: 768px) {
   .promotion-about-container,
-  .promotion-about-text{
+  .promotion-about-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,12 +84,11 @@
     text-transform: capitalize;
     margin-bottom: 20px;
   }
-  .img-pro{
-    width:100%;
+  .img-pro {
+    width: 100%;
     margin-left: 32px;
   }
 }
-
 
 /* About All Sections */
 
@@ -97,7 +96,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/about/15932d9669fc68adf59e3a7a20577300.gif);
+  background-image: url(/images/about/sea-view.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -125,7 +124,8 @@
 .trend-container {
   max-width: 1300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
   margin: 0 auto;
   padding: 90px 0;
 }
@@ -155,7 +155,6 @@
 /* Trend Container */
 
 @media screen and (max-width: 1200) {
-  
 }
 @media screen and (max-width: 768) {
   .trend-container {
@@ -166,3 +165,23 @@
     padding: 90px 0;
   }
 }
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.statistics-heads {
+  display: flex;
+  justify-content: space-between;
+}
+/* Explore More */
+.all-about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.all-about-title-container {
+  text-align: center;
+}
+
