@@ -19,34 +19,39 @@
   </head>
   <body>
     <div class="homepage-hero-section">
-      <nav>
+      <nav class="hero-nav">
+        <img class="travel-logo" src="images/logo.png" />
         <ul class="nav-list">
-          <img class="travel-logo" src="images/logo.png" />
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Upcomming Packages</li>
-          <a class="contact">Get in Touch</a>
+          <li><a class="hovered-link" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Upcomming Packages</a></li>
         </ul>
+        <a class="contact">Get in Touch</a>
       </nav>
       <div class="kutu">
-         <h1 class="content-1"></h1>you’re going to, we’ll take you there</h1>
+        <h1 class="content-1">you’re going to, we’ll take you there</h1>
         <div class="filter-box">
           <input class="input" placeholder="Where To?" type="text" />
           <input class="input" placeholder="Travel Type" type="text" />
           <input class="input" placeholder="Duration" type="text" />
-          <button>Submit</button>
+          <button class="input-submit">Submit</button>
         </div>
-        <div class="users-icon">
-          <img class="user1" src="images/user-avatar1.png" alt="img" />
-          <img class="user" src="images/user-avatar2.png" alt="img" />
-          <img class="user" src="images/user-avatar3.png" alt="img" />
-          <img class="user" src="images/user-avatar4.png" alt="img" />
-          <img class="user" src="images/user-avatar5.png" alt="img" />
-          <img class="user" src="images/user-avatar6.png" alt="img" />
-          <p class="user-p">2,500 people booked Tommorowland Event in last 24 hours</p>
+        <div class="users-icons-container">
+          <div class="users-icon">
+            <img class="user1" src="images/user-avatar1.png" alt="img" />
+            <img class="user" src="images/user-avatar2.png" alt="img" />
+            <img class="user" src="images/user-avatar3.png" alt="img" />
+            <img class="user" src="images/user-avatar4.png" alt="img" />
+            <img class="user" src="images/user-avatar5.png" alt="img" />
+            <img class="user" src="images/user-avatar6.png" alt="img" />
+          </div>
+          <p class="user-p">
+            2,500 people booked Tommorowland Event in last 24 hours
+          </p>
         </div>
       </div>
+      <a href="#ttpSection"><img class="scroll-img" src="images/scroll.png" /></a>
     </div>
     <div class="partners-logo-container">
       <img
@@ -117,7 +122,7 @@
         />
       </div>
     </div>
-    <section class="trending-tour-packages-section">
+    <section id="ttpSection" class="trending-tour-packages-section">
       <div class="trending-tour-title-container">
         <span class="trendy">TRENDY</span>
         <h2 class="trending-tour-title">
