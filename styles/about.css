@@ -1,105 +1,3 @@
-.about-us-header {
-  border: 1px solid ghostwhite;
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/about/about-header-img.png");
-  background-position: center;
-  background-size: cover;
-}
-.header-travel-container {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 50px auto;
-}
-.p-travel-head {
-  color: #fff;
-  display: flex;
-  gap: 40px;
-  font-size: 17px;
-  font-weight: 500;
-  align-items: center;
-}
-.p-2 {
-  border-bottom: 2px solid #df6951;
-}
-.get-in-touch-btn {
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
-  background-color: #df6951;
-  padding: 15px 25px;
-  border-radius: 10px;
-  margin: auto 5px;
-}
-.mid-head {
-  width: 1100px;
-  margin: 100px auto;
-}
-.read-h1 {
-  color: #ffefec;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.about-us-h1 {
-  color: #fff;
-  font-family: "Yesteryear";
-  font-size: 157.45px;
-  font-weight: 400px;
-  text-align: center;
-}
-.promotion-about-container {
-  max-width: 1300px;
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 50px auto;
-}
-.p-travel-head {
-  color: #fff;
-  display: flex;
-  gap: 40px;
-  font-size: 17px;
-  font-weight: 500;
-  align-items: center;
-}
-.p-2 {
-  border-bottom: 2px solid #df6951;
-}
-.get-in-touch-btn {
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
-  background-color: #df6951;
-  padding: 15px 25px;
-  border-radius: 10px;
-  margin: auto 5px;
-}
-.mid-head {
-  width: 1100px;
-  margin: 100px auto;
-}
-.read-h1 {
-  color: #ffefec;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.about-us-h1 {
-  color: #fff;
-  font-family: "Yesteryear";
-  font-size: 157.45px;
-  font-weight: 400px;
-  text-align: center;
-}
-
 /* About Europe Sightseeing Tours */
 .promotion-about-container,
 .img-pro {
@@ -107,19 +5,23 @@
   align-items: center;
   justify-content: center;
 }
+
 .promotion-about-container {
   gap: 24px;
   padding: 90px 0;
 }
+
 .img-pro {
   width: 40%;
 }
+
 .promotion-h5 {
   color: #df6951;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 .promotion-h2 {
   color: #181e4b;
   font-family: "Volkhov", serif;
@@ -129,6 +31,7 @@
   margin-bottom: 20px;
   white-space: nowrap;
 }
+
 .text-promotion {
   color: black;
   width: 570px;
@@ -136,8 +39,10 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
+
 .pro-btn {
   display: inline-block;
   background-color: #df6951;
@@ -146,30 +51,38 @@
   border-radius: 10px;
   margin: 30px 0px;
 }
+
 @media screen and (max-width: 1200px) {
   .promotion-about-container {
     gap: 18px;
     padding: 90px 64px;
   }
+
   .text-promotion {
     width: 90%;
     font-size: 14px;
-    line-height: 24px; /* 162.5% */
+    line-height: 24px;
+    /* 162.5% */
   }
+
   .promotion-h5 {
     font-size: 16px;
     margin-bottom: 10px;
   }
+
   .promotion-h2 {
     font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 20px;
   }
+
   .img-pro {
     width: 50%;
   }
 }
+
 @media screen and (max-width: 768px) {
+
   .promotion-about-container,
   .promotion-about-text {
     display: flex;
@@ -177,15 +90,18 @@
     align-items: center;
     flex-direction: column;
   }
+
   .promotion-about-container {
     gap: 16px;
     text-align: center;
   }
+
   .promotion-h2 {
     font-size: 32px;
     text-transform: capitalize;
     margin-bottom: 20px;
   }
+
   .img-pro {
     width: 100%;
     margin-left: 32px;
@@ -205,10 +121,12 @@
   width: 100%;
   height: 400px;
 }
+
 .wanderlust-head {
   max-width: 1300px;
   position: relative;
 }
+
 .wanderlust-h1 {
   text-align: center;
   font-family: "Yesteryear", cursive;
@@ -216,6 +134,7 @@
   font-size: 100px;
   font-weight: 400;
 }
+
 .play-circle {
   transform: translate(50%, 50%);
   position: absolute;
@@ -223,6 +142,7 @@
   top: 0;
   width: 80px;
 }
+
 .trend-container {
   max-width: 1300px;
   display: flex;
@@ -231,12 +151,14 @@
   margin: 0 auto;
   padding: 90px 0;
 }
+
 .h5-trend {
   color: #df6951;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 .h2-popular-plans {
   color: #181e4b;
   font-family: "Volkhov", serif;
@@ -245,6 +167,7 @@
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
 .p-trend {
   color: black;
   width: 570px;
@@ -256,8 +179,8 @@
 
 /* Trend Container */
 
-@media screen and (max-width: 1200) {
-}
+@media screen and (max-width: 1200) {}
+
 @media screen and (max-width: 768) {
   .trend-container {
     max-width: 100%;
@@ -267,23 +190,54 @@
     padding: 90px 0;
   }
 }
+
 .statistics {
   display: flex;
   justify-content: space-between;
-  margin: 50px auto;
+  text-align: center;
+  margin: 80px auto;
+  color: #181e4b;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
+
 .statistics-heads {
   display: flex;
   justify-content: space-between;
 }
+
 /* Explore More */
-.all-about-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.all-about-section-container {
+  
 }
-.all-about-title-container {
+
+.all-about-title {
+  max-width: 100%;
+  margin: 30px auto;
   text-align: center;
 }
+
+.about-first-title {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about-second-title {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71.042px;
+}
+.all-about-images-container {
+  border: 5px solid blue;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  
+}
+
+
 
