@@ -208,9 +208,7 @@
 }
 
 /* Explore More */
-.all-about-section-container {
-  
-}
+.all-about-section-container {}
 
 .all-about-title {
   max-width: 100%;
@@ -232,12 +230,140 @@
   font-weight: 700;
   line-height: 71.042px;
 }
+
 .all-about-images-container {
-  border: 5px solid blue;
   display: grid;
-  grid-template-columns: repeat(4 , 1fr);
-  
+  grid-template-columns: repeat(4, 363px);
+  gap: 25px;
 }
 
 
+.city-img-box {
+  position: relative;
+  height: fit-content;
+}
 
+.img-city-box {
+  grid-row: auto / span 2;
+  width: 100%;
+}
+
+.city-text-box {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+}
+
+/* See What Our Clients Say About Us */
+.about-comment-container {
+  border: 5px solid green;
+
+}
+
+/* Footer Section */
+
+.about-footer-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: auto 250px;
+  padding: 36px;
+}
+
+.about-footer-topside {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  border-bottom: #e5e5ea 2px solid;
+  padding: 22px 16px;
+}
+
+.travel-title-footer {
+  color: #181E4B;
+  font-family: "Volkhov", serif;
+  font-size: 31.622px;
+  font-weight: 700px;
+}
+
+.footer-txt {
+  width: 250px;
+  color: #757095;
+  font-family: "Manrope", sans-serif;
+}
+
+.about-footer-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px auto;
+}
+
+.about-footer-title {
+  color: #181E4B;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about-footer-span {
+  font-family: "Manrope", sans-serif;
+  color: #181433;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.footer-txt-2 {
+  display: flex;
+  flex-direction: column;
+  color: #757095;
+  font-family: "Manrope", sans-serif;
+}
+
+.about-socials-container {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.about-footer-input-container {
+  display: flex;
+}
+
+.about-footer-input {
+  border: none;
+  background: #eef;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.footer-btn {
+  border-radius: 10px;
+  padding: 16px;
+  border: none;
+  background: #df6951;
+  color: white;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+
+.copy-right {
+  color: #181433;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-img-png {
+  position: absolute;
+  width: 40%;
+  left: 85%;
+}
