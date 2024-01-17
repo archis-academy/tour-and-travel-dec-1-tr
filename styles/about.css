@@ -208,7 +208,10 @@
 }
 
 /* Explore More */
-.all-about-section-container {}
+.all-about-section-container {
+  
+ 
+}
 
 .all-about-title {
   max-width: 100%;
@@ -234,6 +237,7 @@
 .all-about-images-container {
   display: grid;
   grid-template-columns: repeat(4, 363px);
+  justify-content: center;
   gap: 25px;
 }
 
@@ -258,12 +262,6 @@
   display: flex;
   justify-content: space-between;
   width: 315px;
-}
-
-/* See What Our Clients Say About Us */
-.about-comment-container {
-  border: 5px solid green;
-
 }
 
 /* Footer Section */
