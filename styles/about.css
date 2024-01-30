@@ -82,7 +82,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .promotion-about-container,
   .promotion-about-text {
     display: flex;
@@ -146,12 +145,27 @@
 .trend-container {
   max-width: 1300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
   margin: 0 auto;
   padding: 90px 0;
+  position: relative;
+}
+.trend-text-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 32px;
+}
+.shell-img{
+  position: absolute;
+  right: -10%;
 }
 
+.poloroid-photos{
+  width: 90%;
+}
 .h5-trend {
   color: #df6951;
   font-size: 18px;
@@ -179,15 +193,42 @@
 
 /* Trend Container */
 
-@media screen and (max-width: 1200) {}
+@media screen and (max-width: 1200px) {
+  .shell-img{
+    display: none;
+  }
+  .h2-popular-plans{
+    font-size: 40px;
+  }
+  .p-trend{
+    font-size: 14px;
+  }
+}
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .trend-container {
     max-width: 100%;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: 0 auto;
     padding: 90px 0;
+  }
+  .p-trend {
+    color: black;
+    width: 100%;
+    font-size: 16px;
+  }
+  .trend-text-head{
+    text-align: center;
+    align-items: center;
+  }
+  .trend-big-image{
+    display: flex;
+    justify-content:center ;
+  }
+  .poloroid-photos{
+    width: 60%;
   }
 }
 
@@ -263,8 +304,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 700px;
-  margin-top: 150px;
+  padding: 128px 0;
+  margin-top: 150px ;
   background-color: whitesmoke;
   position: relative;
 }
@@ -288,7 +329,7 @@
 }
 
 .about-comment-title {
-  width: 600px;
+  max-width: 600px;
   margin: 20px auto;
   text-align: center;
 }
@@ -310,7 +351,7 @@
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  width: 550px;
+  max-width: 550px;
   height: 300px;
   margin: 100px auto;
   position: relative;
@@ -368,86 +409,105 @@
   margin: -50px auto;
 }
 
+@media screen and (max-width: 1200px) {
+  .about-comment-container {
+    padding: 64px 0 ;
+    background-color: whitesmoke;
+    position: relative;
+  }
+}
+@media screen and (max-width: 768px) {
+  .comment-poloraid-img {
+    display: none;
+  }
+  .statistics {
+    text-align: center;
+    margin: 60px auto;
+    font-size: 16px;
+  }
+  .statistics img{
+    width: 50%;
+  }
+  
+  .comment-seashell-img {
+    display: none;
+  }
+  .second-title{
+    font-size: 40px;
+  }
+  .left-arrow {
+    left: -30px;
+    top: 80%;
+  }
+  
+  .right-arrow {
+    right: -30px;
+    top: 80%;
+  }
+}
+
 /* Footer Section */
 
-.about-footer-section {
+.footer-section {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: auto 250px;
-  padding: 36px;
+  padding: 0 10%;
 }
-
-.about-footer-topside {
+.footer-logo-text {
+  color: #181e4b;
+}
+.footer-topside {
   display: flex;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-around;
   border-bottom: #e5e5ea 2px solid;
   padding: 22px 16px;
 }
-
-.travel-title-footer {
-  color: #181E4B;
-  font-family: "Volkhov", serif;
-  font-size: 31.622px;
-  font-weight: 700px;
-}
-
-.footer-txt {
-  width: 250px;
-  color: #757095;
-  font-family: "Manrope", sans-serif;
-}
-
-.about-footer-container {
+.footer-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 10px;
-  margin: 50px auto;
-}
 
-.about-footer-title {
-  color: #181E4B;
+  gap: 6px;
+}
+.footer-title {
+  color: #181433;
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
-
-.about-footer-span {
+.footer-span {
   font-family: "Manrope", sans-serif;
-  color: #181433;
   font-size: 14px;
   font-weight: 500;
   margin-top: 4px;
 }
-
-.footer-txt-2 {
+.footer-span,
+.socials-container img {
+  cursor: pointer;
+}
+.footer-description {
   display: flex;
   flex-direction: column;
+
   color: #757095;
   font-family: "Manrope", sans-serif;
 }
-
-.about-socials-container {
+.socials-container {
   margin-top: 18px;
   display: flex;
   gap: 18px;
 }
-
-.about-footer-input-container {
+.footer-input-container {
   display: flex;
 }
-
-.about-footer-input {
+.footer-input {
   border: none;
   background: #eef;
   padding: 12px;
   font-size: 16px;
 }
-
-.footer-btn {
+.footer-button {
   border-radius: 10px;
   padding: 16px;
   border: none;
@@ -455,16 +515,54 @@
   color: white;
   box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
 }
-
-.copy-right {
+.copyright {
   color: #181433;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  margin-top: 30px;
+}
+.footer-image {
+  position: absolute;
+  width: 30%;
+  left: 70%;
+  z-index: -1;
 }
 
-.footer-img-png {
-  position: absolute;
-  width: 40%;
-  left: 85%;
+@media screen and (max-width: 1200px) {
+  .footer-section {
+    padding: 24px;
+  }
+  .footer-topside {
+    gap: 24px;
+  }
+  .footer-title {
+    font-size: 16px;
+  }
+  .footer-span {
+    font-size: 12px;
+  }
+  .footer-description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+  }
+  .footer-topside {
+    flex-direction: column;
+    padding: 16px 12px;
+  }
+  .footer-title {
+    font-size: 20px;
+  }
+  .footer-container,
+  .footer-image {
+    display: none;
+  }
+  .footer-subscriber {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
 }
