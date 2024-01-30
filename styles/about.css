@@ -231,7 +231,7 @@
 
 .all-about-images-container {
   display: grid;
-  grid-template-columns:repeat(auto-fit , minmax(285px , 363px));
+  grid-template-columns: repeat(auto-fit, minmax(285px, 363px));
   justify-content: center;
   gap: 25px;
 }
@@ -288,7 +288,7 @@
 }
 
 .about-comment-title {
-  width: 75%;
+  width: 600px;
   margin: 20px auto;
   text-align: center;
 }
@@ -310,17 +310,17 @@
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  margin-top: 120px;
-  transform: translate(20%, -10%);
-  width: 70%;
-  height: 280px;
+  width: 550px;
+  height: 300px;
+  margin: 100px auto;
   position: relative;
 }
 
 .client-img {
   position: absolute;
   top: -90px;
-  left: 200px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .client-text {
@@ -336,35 +336,36 @@
 .quotes {
   position: absolute;
   z-index: -1px;
-  left: 60px;
-  top: 15px;
+  left: 65px;
+  top: 12px;
 }
 
 .left-arrow {
   position: absolute;
   left: -65px;
-  bottom: 50px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .right-arrow {
   position: absolute;
   right: -65px;
-  bottom: 50px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .client-name {
-  color: #000;
+  color: var(--black, #000);
+  text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   position: absolute;
   bottom: 40px;
 }
 
 .about-line {
-  position: absolute;
-  transform: translate(50%, 50%);
-  bottom: 100px;
-  left: 43%;
+  display: block;
+  margin: -50px auto;
 }
 
 /* Footer Section */
