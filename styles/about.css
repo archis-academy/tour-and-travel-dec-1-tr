@@ -29,12 +29,11 @@
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 20px;
-  white-space: nowrap;
 }
 
 .text-promotion {
   color: black;
-  width: 570px;
+  max-width: 570px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -72,7 +71,6 @@
 
   .promotion-h2 {
     font-size: 40px;
-    text-transform: capitalize;
     margin-bottom: 20px;
   }
 
@@ -82,7 +80,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .promotion-about-container,
   .promotion-about-text {
     display: flex;
@@ -98,7 +95,6 @@
 
   .promotion-h2 {
     font-size: 32px;
-    text-transform: capitalize;
     margin-bottom: 20px;
   }
 
@@ -136,13 +132,20 @@
 }
 
 .play-circle {
-  transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
   position: absolute;
-  right: 50%;
-  top: 0;
+  left: 50%;
+  top: 50%;
   width: 80px;
 }
-
+@media (max-width: 550px) {
+  .wanderlust-h1 {
+    font-size: 50px;
+  }
+  .play-circle {
+    width: 40px;
+  }
+}
 .trend-container {
   max-width: 1300px;
   display: flex;
@@ -244,18 +247,15 @@
 
 .statistics {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   text-align: center;
   margin: 80px auto;
   color: #181e4b;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
-}
-
-.statistics-heads {
-  display: flex;
-  justify-content: space-between;
 }
 
 /* Explore More */
@@ -302,11 +302,12 @@
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   position: absolute;
-  left: 15px;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 15px;
   display: flex;
   justify-content: space-between;
-  width: 315px;
+  width: 265px;
 }
 
 /* See What Our Clients Say About Us */
@@ -338,13 +339,13 @@
   position: absolute;
   left: 0px;
   bottom: 0px;
+  max-width: 350px;
 }
 
 .about-comment-title {
   max-width: 600px;
   margin: 20px auto;
   text-align: center;
-
 }
 
 .first-title {
@@ -357,16 +358,16 @@
   color: #181e4b;
   font-family: "Volkhov", serif;
   font-size: 50px;
-
 }
 
 .about-clients {
   background-color: #fff;
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   max-width: 550px;
-  height: 300px;
   margin: 100px auto;
   position: relative;
 }
@@ -384,8 +385,8 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 24.449px;
-  padding-top: 60px;
-  width: 350px;
+  padding: 60px 20px 35px;
+  max-width: 350px;
 }
 
 .quotes {
@@ -414,18 +415,18 @@
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  position: absolute;
-  bottom: 40px;
+  padding: 0 20px 25px;
 }
 
 .about-line {
   display: block;
   margin: -50px auto;
 }
-
+.city-img-box > img {
+  width: 100%;
+}
 @media screen and (max-width: 1200px) {
   .about-comment-container {
-
     padding: 64px 0;
     background-color: whitesmoke;
     position: relative;
@@ -433,7 +434,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .comment-poloraid-img,
   .quotes,
   .right-arrow,
@@ -442,7 +442,6 @@
   }
 
   .statistics {
-    text-align: center;
     margin: 60px auto;
     font-size: 16px;
   }
@@ -522,6 +521,8 @@
 
 .footer-input-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-input {
